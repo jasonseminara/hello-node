@@ -16,4 +16,11 @@
 
 
 ## Create a new AWS EB application
-1. `eb create` (follow the prompts and wait for the service to restart)
+1. `eb create` (defaults at the prompts and wait a few minutes for the service to restart)
+
+## Configure
+1. `eb config`
+    1. change the node version to 7.6.0
+
+## Deploy
+1. `eb deploy`
